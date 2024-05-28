@@ -1,0 +1,27 @@
+accelerator:
+  displayName: Sample LLM App Accelerator with multi-step MLflow Workflows
+  description: Sample LLM app for publishing a base LLM and/or its metrics to HuggingFace, MLflow and Datahub
+  iconUrl: https://www.mlflow.org/docs/1.22.0/_static/MLflow-logo-final-black.png
+  tags:
+  - "ML"
+  - "AI"
+  - "machinelearning"
+  - "datascience"
+  - "MLOps"
+  - "artificialintelligence"
+  - "python"
+  - "mlflow"
+  - "llm"
+  - "llmops"
+  - "generativeai"
+  - "genai"
+  - "sample"
+  - "app"
+  options:
+    - name: manual
+      inputType: radio
+      display: true
+      choices:
+        - text: 'View guidance manual: https://raw.githubusercontent.com/agapebondservant/accelerator-docs/main/docs/sample-mlflow-project-llms.pdf'
+          value: doc
+      defaultValue: doc
