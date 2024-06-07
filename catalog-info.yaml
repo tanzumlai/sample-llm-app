@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-llm-app
+  annotations:
+    github.com/project-slug: tanzumlai/sample-llm-app
+spec:
+  type: other
+  lifecycle: unknown
+  owner: tanzu-tech-marketing
